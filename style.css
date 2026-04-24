@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #1b5e20;
+}
+
+h2, h3 {
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#btn-neu, #btn-speichern {
+    background-color: #2e7d32;
+    color: white;
+}
+
+#btn-neu:hover, #btn-speichern:hover {
+    background-color: #1b5e20;
+}
+
+#btn-leeren, .btn-loeschen {
+    background-color: #c62828;
+    color: white;
+}
+
+#btn-leeren:hover, .btn-loeschen:hover {
+    background-color: #b71c1c;
+}
+
+/* Inputs */
+input, textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 8px 12px;
+    margin: 6px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Notiz Cards (index.html) */
+.notiz-card {
+    background: white;
+    padding: 14px 18px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    max-width: 500px;
+}
+
+.notiz-card a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.notiz-card a:hover {
+    text-decoration: underline;
+}
+
+/* Zurück Link */
+a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
